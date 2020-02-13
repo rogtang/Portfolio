@@ -3,19 +3,17 @@
 <head>
     <title>Roger Tang</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
     <meta name="description" content="Portfolio site for web developer Roger Tang">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat%7CRaleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
    <header>  
-     <!-- this would be the flex containter because its the parent of p and nav. -->
     <div class="myName">Roger Tang</div>
-    <!-- // target to move left for horizontal views. -->
     <nav class="navigation"> 
-      <!-- // target to move right -->
       <ul class="siteNav">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
@@ -25,46 +23,34 @@
     </header>
     <main class="mainSite">
       <section class="hero">
-      <table>
-        <tr>
-          <td>
-            <table>
-                <tr>
-                    <td class="emailButton">
-                        <a  class="emailLink" href="mailto:rogtang@gmail.com" target="_blank">
-                          Drop Me A Line             
-                       </a>
-                    </td>
-                </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
+      <div class="emailButton">
+     <a class="emailLink" href="mailto:rogtang@gmail.com" target="_blank">Email Me</a>
+      </div>
           <div class="intro"><h1>Welcome, my name is Roger and I build web programs and sites to solve real-world problems.</h1></div>
         </section>
         <section id="projects" class="projectContent">
-            <h3>PROJECTS</h3>
-            <img class="quiz" src="Simpsons_Quiz_Screenshots/start.png" alt="Start screen"/>
-            <img class="quiz" src="Simpsons_Quiz_Screenshots/questions.png" alt="Question screen"/>
-            <img class="quiz" src="Simpsons_Quiz_Screenshots/wrong.png" alt="Incorrect answer"/>
+            <h2>PROJECTS</h2>
+            <img src="Simpsons_Quiz_Screenshots/start.png" alt="Start screen"/>
+            <img src="Simpsons_Quiz_Screenshots/questions.png" alt="Question screen"/>
+            <img src="Simpsons_Quiz_Screenshots/wrong.png" alt="Incorrect answer"/>
             <p><strong>The Simpsons: A Trivia Game</strong><br>
              Did you know the Simpsons has been on the air for over 30 years and 670 episodes? That's a whole lot of facts and trivia to cover. So here are 10 questions that will test some basic knowledge of the Simpsons in their early, formative years. Yes, Maggie has always been a baby and Marge really has kept the same hairdo for all 30 years.</p>
             <p>Built with: HTML, CSS, Javascript, and jQuery</p>
-            <p>Project Links: <a class="simpsons" href="https://github.com/rogtang/Simpsons-Quiz-App">GitHub Repo</a> <a class="simpsons" href="https://rogtang.github.io/Simpsons-Quiz-App/">Live</a></p>
+            <p>Project Links: <a class="simpsons" href="https://github.com/rogtang/Simpsons-Quiz-App" target="_blank" aria-label="GitHub repository">GitHub Repo</a> <a class="simpsons" href="https://rogtang.github.io/Simpsons-Quiz-App/" target="_blank" aria-label="Live App">Live</a></p>
         </section>
 
         <section id="about" class="aboutContent">
-            <h3>ABOUT</h3>
-            <p>I'm a recent graduate of Bloc's rigorous web development program. I'm fluent in languages like HTML, CSS, and JavaScript (plus jQuery) and can also order at a Chinese restaurant like I know what I'm doing (Yes, I really did intend to order that stinky tofu). An enthusiasm for modern technology, eye for detail and interest in figuring out how things work drew me to the world of web development. The idea of building a web application to solve a real-world problem (or need) inspires and excites me. Some other things that excite me are music and watching basketball and baseball.</p>
+            <h2>ABOUT</h2>
+            <p>I'm a recent graduate of Bloc's rigorous web development program. I'm fluent in languages like HTML, CSS, and JavaScript (plus jQuery) and can also order at a Chinese restaurant like I know what I'm doing (Yes, I really did intend to order that stinky tofu). An enthusiasm for modern technology, eye for detail and interest in figuring out how things work drew me to the world of web development. The idea of collaborating with other programmers and building web applications to solve real-world problems (or needs) inspires and excites me. Some other things that excite me are music and watching basketball and baseball.</p>
         </section>
     </main>
     <footer id="contact" class="contactContent">
-      <h4>
+      <h3>
         LET'S CONNECT: 
-        </h4> 
+        </h3> 
       <ul class="social">
-			<li class="social_icon"><a href="https://www.linkedin.com/in/roger-tang-abb7b74/" class="fa fa-linkedin"></a></li>
-			<li class="social_icon"><a href="https://github.com/rogtang" class="fa fa-github" style="font-size:36px"></a></li>
+			<li class="social_icon"><a href="https://www.linkedin.com/in/roger-tang-abb7b74/" target="_blank" class="fa fa-linkedin" aria-label="LinkedIn"></a></li>
+			<li class="social_icon"><a href="https://github.com/rogtang" target="_blank" class="fa fa-github" aria-label="GitHub" style="font-size:36px"></a></li>
 		</ul>
     
       </footer>
