@@ -158,6 +158,7 @@ h3 {
   .siteNav > li {
     margin-right: 40px;
   }
+
   ul {
    flex-direction: row;
    justify-content: center;
@@ -187,7 +188,10 @@ h1 {
 .musefeed-images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-left: 5px;
 }
 
 .musefeed_pic {
