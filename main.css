@@ -186,17 +186,15 @@ h1 {
 }
 
 .musefeed-images {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
+  display: inline-block;
   width: 100%;
-  margin-left: 5px;
+  margin: 1px;
 }
 
 .musefeed_pic {
-  width: 33%;
+  width: 31%;
   margin-right: 10px;
+  justify-content: center;
 }
 
 footer {
@@ -222,3 +220,18 @@ img {
   max-width: 500px;
 }
 } 
+
+/* flex-box version
+.musefeed-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.musefeed_pic {
+  width: 33%;
+  margin-right: 10px;
+}*/
