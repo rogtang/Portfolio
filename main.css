@@ -102,7 +102,7 @@ p {
   text-align: left;
 }
 
-a.simpsons, a.musefeed {
+a.simpsons, a.musefeed, a.homely {
   padding-left: 25px;
 }
 
@@ -185,13 +185,13 @@ h1 {
   padding: 40px;
 }
 
-.musefeed-images {
+.musefeed-images, .homely_images {
   display: inline-block;
   width: 100%;
   margin: 1px;
 }
 
-.musefeed_pic {
+.musefeed_pic, .homely_pic {
   width: 31%;
   margin-right: 10px;
   justify-content: center;
