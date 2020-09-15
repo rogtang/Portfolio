@@ -9,6 +9,7 @@ body {
   text-align: center;
   line-height: 1.5;
   background-color: #def2f180;
+  margin: 8px;
 }
 
 a {
@@ -102,7 +103,7 @@ p {
   text-align: left;
 }
 
-a.simpsons, a.musefeed, a.homely {
+a.simpsons, a.musefeed, a.homely, a.imbibe {
   padding-left: 25px;
 }
 
@@ -185,13 +186,13 @@ h1 {
   padding: 40px;
 }
 
-.musefeed-images, .homely_images {
+.musefeed-images, .homely-images, .imbibe-images {
   display: inline-block;
   width: 100%;
   margin: 1px;
 }
 
-.musefeed_pic, .homely_pic {
+.musefeed_pic, .homely_pic, .imbibe_pic {
   width: 31%;
   margin-right: 10px;
   justify-content: center;
