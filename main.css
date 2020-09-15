@@ -192,9 +192,15 @@ h1 {
   margin: 1px;
 }
 
-.musefeed_pic, .homely_pic, .imbibe_pic {
+.musefeed_pic, .homely_pic {
   width: 31%;
   margin-right: 10px;
+  justify-content: center;
+}
+
+.imbibe_pic {
+  width: 31%;
+  margin: 0px 10px 0px 0px;
   justify-content: center;
 }
 
